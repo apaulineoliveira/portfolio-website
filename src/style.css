@@ -5,4 +5,93 @@
 
 .header {
     background-color: black;
+    height: 50px;
+    flex: 1 1 100%;
+    padding: 15px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu{  
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;     
+    float: left;  
+}
+
+.menu li {
+    position: relative;
+    float: left;  
+    font-size: 20px;  
+    padding: 40px;
+    margin-right: 30px;  
+    display: block;
+}
+
+.menu li a{
+    color:  #727272;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color:  rgb(255, 247, 247);
+    background-color: #084670;
+    padding: 12px;
+    transition: 0.6s;
+    border-radius: 5px;
+    border-style: double;
+    font-size: 18px;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}  
+
+.container {
+    display: flex;
+    flex-direction: column;    
+    padding: 3px 25px 50px;  
+    margin-top: 15%;   
+    align-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+    font-family: sans-serif;
+}
+
+.container p {
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(160, 160, 160)
+}
+
+.container p:hover {
+    color: rgb(210, 210, 210);
+    font-size: 22px;
+}
+
+.skills {
+    list-style: none;  
+    margin-top: 2%;     
+}
+
+.skills li {
+    position: relative;
+    float: left;  
+    font-size: 20px;  
+     padding: 40px;
+    margin-right: 30px;  
+    display: block;
+}
+
+.skills img {
+    width: 50px;
+     height: 50px;
 }
