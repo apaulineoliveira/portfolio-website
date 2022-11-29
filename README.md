@@ -13,4 +13,4 @@ Portfólio Pauline Oliveira
 <p>A ideia central do projeto é construir um portfólio simples e intuito, mas não deixando de lado a criatividade, para demonstrar todas as habilidades que o profissional em questão possui. Além de HTML, CSS e Javascript puro, também serão utilizados API's, códigos em bootstrap(css) e um pouco de react.</p>
 
 <h2>CSS</h2>
-Para ficar estéticamente bonito e ilustrativo optei por colocar as logos das tecnologias dominadas pela desenvolvedora ao invés de apenas escreve-las. Além disso, ao clicar em cima desses respectivos logos, o usuário será encaminhado para a parte da página onde contém os projetos feitos naquela linguagem selecionada.
+Para ficar estéticamente bonito e ilustrativo optei por colocar as logos das tecnologias dominadas pela desenvolvedora ao invés de apenas escreve-las. Além disso, ao clicar em cima desses respectivos logos, o usuário será encaminhado para a parte da página onde contém os projetos feitos naquela linguagem selecionada. Além disso, para estilizar as fotos uma ao lado da outra coloquei-as em listas não ordenadas no html e de forma conseguinte, estilizei-as no css.
